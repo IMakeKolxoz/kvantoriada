@@ -10,8 +10,8 @@ ___
 ___
 ### Описание
 #### В папке [code](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code) находится две папки:
-1) [C++](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/с++)
-2) [Python](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/python)
+1) [C++](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/c%2B%2B) в этой папке находится код для управления манипулятором при помощи контройлера OpenCM9.04
+2) [Python](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/python) в этой
 ___
 
 [⬆️Оглавление](#Оглавление)
