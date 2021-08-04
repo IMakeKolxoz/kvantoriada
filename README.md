@@ -4,7 +4,7 @@
 
 ### Что тут находится
 
-     В этом репозитории находятся все наработки по [треку Аватар](https://drive.google.com/file/d/1Xk9JmI-iwXZuBaBrTYuzEtRVRUpCh7AM/view?usp=sharing) на конкурс [инженерных команд Кванториада ](http://kvantoriada.online/)
+#### В этом репозитории находятся все наработки по [треку Аватар](https://drive.google.com/file/d/1Xk9JmI-iwXZuBaBrTYuzEtRVRUpCh7AM/view?usp=sharing) на конкурс [инженерных команд Кванториада ](http://kvantoriada.online/)
 
 ___
 ### Описание
