@@ -12,7 +12,7 @@ ___
 1) [C++](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/c%2B%2B) в этой папке находится код для управления манипулятором при помощи контройлера OpenCM9.04
 2) [Python](https://github.com/IMakeKolxoz/kvantoriada/tree/main/code/python) в этой папке находится код расчета углов сервопривода(который я потом переделаю на c++)
 
-#### В папке [drawings and diagrams](https://github.com/IMakeKolxoz/kvantoriada/tree/main/drawings%20and%20diagrams) находятся схемы и пояснительные рисунки:
+#### В папке [drawings and diagrams](https://github.com/IMakeKolxoz/kvantoriada/tree/main/drawings%20and%20diagrams) находятся схемы и `пояснительные` рисунки:
 ___
 
 [⬆️Оглавление](#Оглавление)
