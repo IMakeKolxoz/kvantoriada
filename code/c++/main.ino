@@ -1,4 +1,4 @@
-#include <math.h>                                    // для функции acos
+#include <math.h>
 // настройки манипулятор
 const int shoulder_1 = 210;  // в миллиметраx
 const int shoulder_2 = 135;  // в миллиметрах
@@ -12,8 +12,6 @@ float z;
 float side_1;  
 float side_2;
 float side_3;
-///стороны треугольника №2
-float shoulder_1, shoulder_2;
 //косинус и углы в радианах
 float cos_a;  
 float cos_b;
@@ -30,13 +28,10 @@ void setup() {
   y = 250;
   z = 300;
   Serial.begin(9600);
-}
-
-void loop() {
-  // находим расстояние от основания манипулятора до заданной точки
+    // находим расстояние от основания манипулятора до заданной точки
   side_1 = sqrtf((x * x) + (y * y));
   side_2 = fabs(z - base);
-  side_3 = sqrtf((side_1 * side_1) + (side_2 * side_2);
+  side_3 = sqrtf((side_1 * side_1) + (side_2 * side_2));
   // проверка на существование треугольника
   if ((shoulder_1 + shoulder_2 > side_3) && (shoulder_2 + side_3 > shoulder_1) && (shoulder_1 + side_3 > shoulder_2))
   {
@@ -48,14 +43,14 @@ void loop() {
     cos_b = (a * a + c * c - b * b) / (2 * c * a);
     cos_c = (b * b + a * a - c * c) / (2 * a * b);
     //переводим косинус в радианы и округляем до сотых
-    radian_a = math.acos(cos_a);
-    radian_b = math.acos(cos_b);
-    radian_c = math.acos(cos_c);
-    Serial.println("radian_a= " radian_a);
-    Serial.println("radian_b= " radian_b);
-    Serial.println("radian_c= " radian_c);
+    radian_a = acos(cos_a);
+    radian_b = acos(cos_b);
+    radian_c = acos(cos_c);
+    Serial.println(radian_a);
+    Serial.println(radian_b);
+    Serial.println(radian_c);
   }
-  else:
+  else
   {
     Serial.println("Ошибка");
 }
