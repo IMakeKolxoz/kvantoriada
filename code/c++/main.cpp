@@ -23,15 +23,15 @@ float radian_b;
 float radian_c;
 /*/
 //вводим координаты
-count << "Ввведите x: ";
+cout << "Ввведите x: ";
 cin >> x;
-count << "Ввведите y: ";
+cout << "Ввведите y: ";
 cin >> y;
-count << "Ввведите z: ";
+cout << "Ввведите z: ";
 cin >> z;
-count << "х = " << x << endl;
-count << "y = " << y << endl;
-count << "z = " <<  << endl;
+cout << "х = " << x << endl;
+cout << "y = " << y << endl;
+cout << "z = " <<  << endl;
 
 
 void calculation of angles()
