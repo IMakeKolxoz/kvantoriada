@@ -16,7 +16,7 @@ ___
 #### В папке [drawings and diagrams](https://github.com/IMakeKolxoz/kvantoriada/tree/main/drawings%20and%20diagrams) находятся схемы и `пояснительные` рисунки:
 ___
 #### В папке [documentation](https://github.com/IMakeKolxoz/kvantoriada/tree/main/documentation) находится документация
-##### В папке [documentation](https://github.com/IMakeKolxoz/kvantoriada/tree/main/documentation/technical%20documentation) чертежи устройств и
+1) В папке [technical documentation](https://github.com/IMakeKolxoz/kvantoriada/tree/main/documentation/technical%20documentation) чертежи устройств и
 их составных частей, функциональные и электрические схемы,
 поясняющие работу устройств на уровне подсистем
 ___
