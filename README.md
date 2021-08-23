@@ -15,8 +15,6 @@ ___
 
 #### В папке [drawings and diagrams](https://github.com/IMakeKolxoz/kvantoriada/tree/main/drawings%20and%20diagrams) находятся схемы и 3d модели частей манипулятора (`в процессе разработки часть моделей была утеряна, но в будущем они будут добавлены`): 
 
-
-
 #### В папке [documentation](https://github.com/IMakeKolxoz/kvantoriada/blob/main/documentation) находится документация к проекту 
 
 
