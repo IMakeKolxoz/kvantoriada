@@ -3,21 +3,18 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://quotes.toscrape.com/'
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'lxml')
-quotes = soup.find_all('span', class_='text')
-
-for quote in quotes:
-    print(quote.text)
-
 a = 1
-
+old_result = 0
 ser = serial.Serial('COM8', 9600)
 print(ser.name)
 time.sleep(2)
+response = requests.get("")  # тут указываем адрес сайт(мы вводили адрес локального сайта)
+soup = BeautifulSoup(response.content, 'html.parser')
+result = soup.body.string
 while a != 999:
-    a = input()
-    b = ser.read()
-    print(b)
-ser.close
+    if result == old_result:
+        print('Ошибка')
+    else:
+        ser.write(result)
+        result = old_result
+ser.close()
